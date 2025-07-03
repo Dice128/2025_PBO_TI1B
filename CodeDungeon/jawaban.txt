@@ -1,0 +1,74 @@
+1. Inheritance
+class Dog(Animal):
+    def sound(self):
+        print("Woof!")
+
+2.  encaspulation
+# TODO: Buat method get_name() di sini
+def get_name(self):
+    return self.__name
+
+# TODO: Buat method set_name(new_name) di sini
+def set_name(self, new_name):
+    self.__name = new_name
+
+3. polymorphism
+# Tulis class Cat di sini
+class Cat:
+    def speak(self):
+        print("Meow")
+
+# Tulis class Dog di sini
+class Dog:
+    def speak(self):
+
+4. Constructor
+# Tulis class Player Anda di sini
+class Player:
+    def __init__(self, name, level):
+        self.name = name
+        self.level = level
+
+    def status(self):
+        print(f"Nama: {self.name}, Level: {self.level}")
+
+5. AdvancedInheritance
+# TODO: Buat class Manager yang mewarisi Employee di sini
+class Manager(Employee):
+    def __init__(self, name, salary, department):
+        super().__init__(name, salary)
+        self.department = department
+    
+    def display(self):
+        super().display()
+        print(f"Department: {self.department}")
+
+6. Composition
+# TODO: Buat class Computer yang MENGGUNAKAN class di atas
+class Computer:
+    def __init__(self, cpu_object, ram_object):
+        self.cpu = cpu_object
+        self.ram = ram_object
+
+    def display_specs(self):
+        print("Computer Specifications:")
+        print(f"- {self.cpu.get_specs()}")
+        print(f"- {self.ram.get_specs()}")
+
+7. final boss
+# Tulis jawabanmu di bawah ini
+# Pastikan nama kelas dan method sesuai!
+class Character:
+    def __init__(self, name):
+        self.__name = name
+
+    def get_name(self):
+        return self.__name
+
+class Hero(Character):
+    def speak(self):
+        return "I will save the world!"
+
+class Villain(Character):
+    def speak(self):
+        return "I will destroy it!"

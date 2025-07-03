@@ -1,0 +1,30 @@
+{
+    "Inheritance": {
+        "status": "cleared",
+        "score": 3
+    },
+    "Encapsulation": {
+        "status": "cleared",
+        "score": 3
+    },
+    "Polymorphism": {
+        "status": "unlocked",
+        "score": 0
+    },
+    "Constructor": {
+        "status": "locked",
+        "score": 0
+    },
+    "Advanced Inheritance": {
+        "status": "locked",
+        "score": 0
+    },
+    "Composition": {
+        "status": "locked",
+        "score": 0
+    },
+    "Final Boss": {
+        "status": "locked",
+        "score": 0
+    }
+}
